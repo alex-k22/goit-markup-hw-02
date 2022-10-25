@@ -14,10 +14,7 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
-	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
 	background-color: var(--main-background);
@@ -79,14 +76,16 @@ body {
 /* Main */
 /*  */
 .hero {
+	background-color: var(--secondary-backgound);
+}
+.hero .header {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: calc (60 / 44);
+	line-height: calc(60 / 44);
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
-	background-color: var(--secondary-backgound);
 }
 .hero .button {
 	font-weight: 700;
@@ -102,7 +101,6 @@ body {
 	cursor: pointer;
 }
 .feature-header {
-	font-weight: 700;
 	font-size: 14px;
 	line-height: calc(16 / 14);
 	text-transform: uppercase;
@@ -110,7 +108,6 @@ body {
 }
 .work-header,
 .team-header {
-	font-weight: 700;
 	font-size: 36px;
 	line-height: calc(43 / 36);
 	text-align: center;
@@ -175,7 +172,6 @@ body {
 }
 
 .examples .example-header {
-	font-weight: 700;
 	font-size: 18px;
 	line-height: calc(36 / 18);
 	letter-spacing: 0.06em;
